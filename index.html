@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>second webpage</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!---navigation bar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand"><h2><b>VM TECH</b></h2></a>
+
+      <button class="navbar-toggler" data-target="#my-collapse" data-toggle="collapse" aria-expanded="false" aria-controls="my-collapse"><span class="navbar-toggler-icon"></span></button>
+
+      <div id="my-collapse" class="collapse navbar-collapse ">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">HOME</a>
+          </li><li class="nav-item">
+            <a href="#services" class="nav-link">SERVICES</a>
+          </li><li class="nav-item">
+            <a href="#team" class="nav-link">TEAM</a>
+          </li><li class="nav-item">
+            <a href="#about" class="nav-link">ABOUT</a>
+          </li><li class="nav-item">
+            <a href="#connect" class="nav-link">CONNECT</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <!---banner section-->
+<section id="home">
+  <div id="demo" class="carousel slide" data-interval="false" data-wrap="true" data-pause="false" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/1.jpg" alt="display image" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>BOOTSTRAP</h3>
+          <p>Quickly design and customize responsive websites with Bootstrap</p>
+          <a href="#"><button class="btn btn-outline-light btn-lg ">View More</button></a>
+          <a href="#"><button class="btn btn-primary btn-lg">Get Started</button></a>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="images/2.jpg" alt="slide 2" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3 id="c2">BOOTSTRAP</h3>
+          <p>Create Complete Website With Bootstrap Layouts</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.jpg" alt="slide 3" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3 id="c3">BOOTSTRAP</h3>
+          <p>The Bootstrap Grid System is used for layout, specifically Responsive Layouts</p>
+        </div>   
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <!---jumbotron section--> 
+   <div class="container-fluid p-md-3">
+     <div class="row jumbotron">
+       <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+         <p class="lead">The web hosting services alloes individuals and organizations to design their own websites and hosted in world wide web</p>
+       </div>
+       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <a href="#"><button type="button" class="btn btn-secondary btn-lg">Web Hosting</button></a>
+      </div>
+     </div>
+   </div>
+  </section>
+  <!--welcone section--->
+<section id="services">
+  <div class="container-fluid" id="w1">
+    <div class="row welcome text-center pt-md-3">
+      <div class="col-12">
+        <h1 class="dispaly-4">LEARN WITH US.</h1>
+      </div>
+      <hr>
+      <div class="col-12">
+        <p class="lead">we welcome you to our platform. Here we provide the complete structured courses regarding HTML,CSS and BOOTSTRAP</p>
+      </div>
+    </div>
+  </div>
+  <!---three column section-->
+  <div class="container-fluid" id="w2">
+    <div class="row text-center pt-md-5">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <i class="fa fa-code fa-4x" id="i1"></i>
+        <h1 class="pt-md-4"><b>HTML</b></h1>
+        <p>Built with latest version of HTML,HTML5</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <i class="fa fa-css3 fa-4x" id="i2"></i>
+        <h1 class="pt-md-4"><b>CSS</b></h1>
+        <p>Built with latest version of CSS3</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <i class="fa fa-bold fa-4x" id="i3"></i>
+        <h1 class="pt-md-4"><b>BOOTSTRAP</b></h1>
+        <p>Built with latest version of BOOTSTRAP 5</p>  
+      </div>
+    </div>
+  </div>
+
+  <!---two column section-->
+  <div class="container-fluid pt-md-5" id="two-col">
+    <div class="row">
+      <div class="col-md-6 pl-md-4 pt-md-5">
+        <h2>With Bootstrap...</h2>
+        <p>Bootstrap is a framework to help you design websites faster and easier. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels, etc. It also gives you support for JavaScript plugins</p>
+        <ul>
+          <li>Responsive structures and styles.</li>
+          <li>Good documentation and community support.</li>
+          <li>Fewer Cross browser bugs.</li>
+          <li>Lightweight and customizable.</li>
+          <li>A consistent framework that supports major of all browsers and CSS compatibility fixes.</li>
+        </ul>
+        <a href="#"><button class="btn btn-outline-secondary mt-3" type="button">Learn More</button></a>
+
+      </div>
+      <div class="col-md-6 p-md-4" id="two-col-pad">
+        <img src="images/8.jpg" class="img-fluid">
+      </div>
+    </div> 
+  </div>
+</section>
+
+  <!---emoji section-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <button class="fun btn-lg text-center shadow-none btn-block" data-toggle="collapse" data-target="#emojis">More About Boootstrap</button>
+      </div>
+    </div>
+  </div>
+
+<div id="emojis" class="collapse in">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <img src="images/10.jpg">
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <img src="images/11.jpg">
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <img src="images/12.png">
+      </div>
+      <div class="col-md-3 col-xs-12 col-sm-6">
+        <img src="images/9.png">
+      </div>
+    </div>
+  </div>
+</div> 
+<!----team section-->
+<section id="team">
+<div class="container-fluid pt-md-5 text-center">
+  <div class="row">
+    <div class="col-md-12" id="line2"><h1>Meet The Team</h1></div>
+  </div>
+</div>
+<!-------cards------>
+<div class="container-fluid pt-md-3">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card p-md-5">
+        <img src="images/t4.jpg" class="img-fluid">
+        <div class="card-body">
+         <h3 class="card-title">John Doe</h3>
+         <p>john is an internet entreprenour with almost 20 years of experiance</p>
+         <a href="#"><button type="button" class="btn btn-outline-primary btn-sm">see profile</button></a>
+        </div> 
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-md-5">
+        <img src="images/t2.jpg" class="img-fluid">
+        <div class="card-body">
+         <h3 class="card-title">Mary Joe</h3>
+         <p>Mary is an internet entreprenour with almost 7 years of experiance</p>
+         <a href="#"><button type="button" class="btn btn-outline-primary btn-sm">see profile</button></a>
+        </div> 
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-md-5">
+        <img src="images/t9.jpg" class="img-fluid">
+        <div class="card-body">
+         <h3 class="card-title">Mark</h3>
+         <p>Mark is an internet entreprenour with almost 17 years of experiance and worked as CEO for a couple of years.</p>
+         <a href="#"><button type="button" class="btn btn-outline-primary btn-sm">see profile</button></a>
+        </div> 
+      </div>
+    </div>
+    
+  </div>
+</div>
+</section>
+
+<!---------philosophy-------->
+<section id="about">
+<div class="container-fluid pt-md-5">
+  <div class="row ">
+    <div class="col-md-6 p-md-4">
+      <h2>our philisophy</h2>
+      <p>The bootstrap fallacy asserts that not only must you self-levitate successfully, but that you also must do so by others' rules and expectations, others' assumptions about what a quality academic experience is and how much learning is enough</p>
+      <p>The Bootstrap Theory was pioneered by Dr. Stephen T. Colbert. It states that the best way for a person or group of people to come up in the world is to create their own opportunites and lift themselves up by their bootstraps</p>
+    </div>
+    <div class="col-md-6 p-md-5">
+      <img src="images/ph.jpg" class="img-fluid">
+    </div>
+  </div> 
+</div>
+</section>
+<!-----------connect----------->
+<section id="connect">
+<section class="socialmedia text-center" id="social">
+  <h1>Follow Us On Social Media </h1>
+  <div class="icons">
+    <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+    <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+    <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+    <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+    <a href="#"><i class="fa fa-snapchat-square fa-2x"></i></a>
+  </div>
+</section>
+<!------footer------>
+<div class="container-fluid pt-md-5" id="footer">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <hr>
+      <h2>TECH</h2>
+      <hr>
+      <p>Web Development</p>
+      <p>o161982@tech.com</p>
+      <p>pin:522426</p>
+
+    </div>
+    <div class="col-md-4">
+      <hr>
+      <h2>Our Hours</h2>
+      <hr>
+      <p>monday:8am - 5pm</p>
+      <p>saturday:8am - 5pm</p>
+      <p>sunday: closed</p>
+      
+    </div>
+    <div class="col-md-4">
+      <hr>
+      <h2>service area</h2>
+      <hr>
+      <p>city: munbai</p>
+      <p>city: Delhi</p>
+      <p>city: Hyderadad</p>
+      
+    </div>
+    <div class="col-md-12">
+      <hr>
+      <h4>@tech.com</h4>
+    </div>
+  </div>
+</div>
+</section>
+
+<script type="text/javascript">
+  $(window).on('load', function() {
+      $('#emojis').modal('hide');
+  });
+</script>
+</body>
+</html>
